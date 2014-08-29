@@ -11,6 +11,8 @@ import static org.testng.Assert.assertTrue;
 public class FacebookActions {
 
     public static void main(String[] args) {
+
+        // Methods below will not run as they are only here to show how to access WebElements from Page Objects Repositories
        WebDriver driver = new FirefoxDriver();
 
         // create an object instance of HomePageObjects

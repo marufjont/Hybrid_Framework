@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 public class FBSigninPageObjects {
     private WebDriver WebDriver;
 
-
+    // This class does not contain actual ids for elements as it was created solely for demonstration
 
     @FindBy (id = "id")
     public WebElement login;

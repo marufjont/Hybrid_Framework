@@ -11,6 +11,8 @@ import org.openqa.selenium.support.PageFactory;
 public class FBHomePageObjects {
     private WebDriver WebDriver;
 
+    // This class does not contain actual ids for elements as it was created solely for demonstration
+
 
     @FindBy(id = "id")
     public WebElement searchField;
